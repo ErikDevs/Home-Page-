@@ -1,0 +1,86 @@
+
+body{  
+    font-family: 'Inter', sans-serif;
+    margin: auto 60px auto 60px;
+}
+
+ul {
+     margin-left: 60%;
+     padding-top: 10px;
+     vertical-align: bottom;
+}
+
+li {
+    display: inline-block;
+    list-style: none;  
+}
+li a {
+    display:block;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    text-align: center;
+    padding: 10px 10px; 
+}
+
+li a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.logo-image {
+    float: left;
+    margin-top: 15px;
+    
+}
+.hero-section {
+    max-width: 70%;
+    position: relative;
+}
+.hero > img {
+    max-width: 100%;
+    position: relative;
+}
+
+.main-text{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 60px;
+    color: hsl(240, 100%, 5%);
+    max-width: 40%;
+    position: absolute;
+}
+.text {
+    float: right;
+    padding-left: 40%;
+    position: relative;
+    margin-top: 60px;
+    padding-left: 450px;
+    color: hsl(236, 13%, 42%);
+    clear: both;
+    line-height: 28px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+.tbn {
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    margin-left: 450px;
+    padding: 10px 20px 10px 20px;
+    width: 200px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.aside{
+    background-color: hsl(240, 100%, 5%);
+    max-width: 24%;
+    position: absolute;
+    margin-left: 850px;
+    color: hsl(36, 100%, 99%);
+    margin-top: 15px;
+}
