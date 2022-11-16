@@ -1,11 +1,14 @@
 
 body{  
     font-family: 'Inter', sans-serif;
-    margin: auto 60px auto 60px;
+    margin: auto 50px auto 50px;
+    max-width: 1440px;
 }
-
+nav{
+    text-align: right;
+}
 ul {
-     margin-left: 60%;
+     
      padding-top: 10px;
      vertical-align: bottom;
 }
@@ -28,11 +31,16 @@ li a:hover {
 
 .logo-image {
     float: left;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
+}
+nav ul img {
+    display: none;
+}
+nav img{
+    display: none;
 }
 .hero-section {
-    max-width: 70%;
+    max-width: 900px;
     position: relative;
 }
 .hero > img {
@@ -47,16 +55,18 @@ li a:hover {
     color: hsl(240, 100%, 5%);
     max-width: 40%;
     position: absolute;
+    margin-top: auto;
+    
 }
 .text {
-    float: right;
-    padding-left: 40%;
-    position: relative;
     margin-top: 60px;
+    font-size: 15px;
+    position: relative;
     padding-left: 450px;
     color: hsl(236, 13%, 42%);
     clear: both;
     line-height: 28px;
+    margin-left: 80px;
 }
 .attribution {
     font-size: 11px;
@@ -68,19 +78,117 @@ li a:hover {
 .tbn {
     background-color: hsl(240, 100%, 5%);
     color: hsl(36, 100%, 99%);
-    margin-left: 450px;
-    padding: 10px 20px 10px 20px;
+    margin-left: 530px;
+    padding: 20px 20px 20px 20px;
     width: 200px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-top: 28px;
+    margin-top: 12px;
     cursor: pointer;
+    border: none;
+}
+.tbn:hover{
+    background-color: hsl(5, 85%, 63%);
 }
 .aside{
     background-color: hsl(240, 100%, 5%);
-    max-width: 24%;
+    width: 290px;
     position: absolute;
-    margin-left: 850px;
+    margin-left: 930px;
     color: hsl(36, 100%, 99%);
-    margin-top: 15px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.heading {
+    color: hsl(35, 77%, 62%);
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+}
+
+.sub-heading{
+    font-size: 20px;
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+    line-height: 30px;
+    cursor: pointer;
+}
+.sub-heading:hover{
+    color: hsl(35, 77%, 62%);
+}
+.body-text{
+    font-size: 15px;
+    font-weight: 90;
+    color: hsl(36, 16%, 87%);
+    line-height: 28px;
+}
+
+hr.divide {
+    border: none;
+    border-top: 0.1px solid hsl(37, 60%, 93%);
+    margin-top: 30px;
+}
+.services{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+.image-text{
+    margin-top: 16px;
+    margin-left: 20px;
+    height: 200px;
+    padding-top: 80px;
+}
+.header-text {
+    font-size: 36px;
+    color: hsl(251, 6%, 66%);
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 16px;
+    
+}
+.sub-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.image1{
+    height: 138px;
+}
+.description > span {
+    font-size: 15px;
+    line-height: 20px;
+}
+.sub-text{
+    line-height: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(240, 100%, 5%);
+    cursor: pointer;
+}
+.sub-text:hover{
+    color: hsl(5, 85%, 63%)
+}
+.lower-section{
+    display: flex;
+    padding: auto;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+@media screen and (max-width: 345px){
+        nav ul {
+            width: 100%;
+            background-color: hsl(5, 85%, 63%);
+            padding: auto; 
+            position: relative;
+            z-index: 1;
+        }
+
+        ul ul li {
+            display: block;
+        }
+
+    
 }
